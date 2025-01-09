@@ -68,7 +68,8 @@ local plugins = {
         "mypy",
         "black",
         "debugpy",
-        "copilot"
+        "copilot",
+        "gopls",
       },
     },
   },
