@@ -13,6 +13,21 @@ return {
     end,
   },
 
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "pyright",
+        "ruff",
+        "mypy",
+        "black",
+        "debugpy",
+        "gopls",
+        "html-lsp"
+      },
+    },
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
